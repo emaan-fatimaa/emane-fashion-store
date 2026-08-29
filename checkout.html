@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout | EMANÈ</title>
+
+
+    <!-- Google Font -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet"
+          href="EMANE.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- CHECKOUT NAVBAR -->
+
+    <nav class="checkout-nav">
+
+        <a href="EMANE.html"
+           class="checkout-logo">
+
+            EMANÈ
+
+        </a>
+
+
+        <a href="EMANE.html"
+           class="back-link">
+
+            ← Continue Shopping
+
+        </a>
+
+    </nav>
+
+
+
+    <!-- CHECKOUT SECTION -->
+
+    <main class="checkout-page">
+
+
+        <!-- CUSTOMER FORM -->
+
+        <section class="checkout-form-section">
+
+            <p class="checkout-small-title">
+                SECURE CHECKOUT
+            </p>
+
+
+            <h1>
+                Complete Your Order
+            </h1>
+
+
+            <form id="checkoutForm">
+
+
+                <label for="customerName">
+                    Full Name
+                </label>
+
+                <input
+                    type="text"
+                    id="customerName"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+
+                <label for="customerPhone">
+                    Phone Number
+                </label>
+
+                <input
+                    type="tel"
+                    id="customerPhone"
+                    placeholder="03XX XXXXXXX"
+                    required
+                >
+
+
+                <label for="customerAddress">
+                    Delivery Address
+                </label>
+
+                <textarea
+                    id="customerAddress"
+                    placeholder="Enter your complete delivery address"
+                    required
+                ></textarea>
+
+
+                <button
+                    type="submit"
+                    class="place-order-btn"
+                >
+
+                    Place Order
+
+                </button>
+
+
+            </form>
+
+        </section>
+
+
+
+        <!-- ORDER SUMMARY -->
+
+        <aside class="order-summary">
+
+            <p class="checkout-small-title">
+                YOUR ORDER
+            </p>
+
+
+            <h2>
+                Order Summary
+            </h2>
+
+
+            <div id="checkoutItems">
+
+                <!-- Products appear here -->
+
+            </div>
+
+
+            <div class="checkout-total">
+
+                <span>
+                    Total
+                </span>
+
+                <strong id="checkoutTotal">
+
+                    PKR 0
+
+                </strong>
+
+            </div>
+
+        </aside>
+
+
+    </main>
+
+
+    <script src="checkout.js"></script>
+
+</body>
+
+</html>

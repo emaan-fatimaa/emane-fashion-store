@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMANE | Timeless Fashion</title>
+    <link rel="stylesheet" href="EMANE.css">
+</head>
+<body>
+
+    <div id="preloader">
+    <div class="loader-content">
+        <h1>EMANÈ</h1>
+        <p>Timeless Fashion. Effortless Elegance.</p>
+
+        <div class="loader-line">
+            <span></span>
+        </div>
+    </div>
+</div>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                EMANÈ
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+
+    <a href="#products" class="shop-btn">Shop Now</a>
+
+    <button class="cart-btn" id="cartBtn">
+        🛒 Cart
+        <span id="cartCount">0</span>
+    </button>
+
+     </div>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="subtitle">WELCOME TO EMANÈ</p>
+
+            <h1>Elegance Designed<br>For You.</h1>
+
+            <p class="description">
+                Discover timeless fashion crafted for confidence,
+                elegance, and every beautiful moment.
+            </p>
+            <a href="#products" class="hero-btn">
+       Explore Collection
+          </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Collection Section -->
+    <section class="collection" id="collection">
+
+        <p class="subtitle">OUR COLLECTION</p>
+
+        <h2>Made To Be Remembered</h2>
+        <div class="collection-categories">
+
+    <div class="category-card">
+
+        <img src="images/abdul-raheem-kannath-wVFnZFeaiFI-unsplash.jpg" alt="Eastern Wear">
+
+        <div class="category-info">
+            <h3>Eastern Wear</h3>
+            <p>Traditional elegance with a modern touch.</p>
+        </div>
+
+    </div>
+
+
+    <div class="category-card">
+
+        <img src="images/pradeep-ranjan-srYDu-eQcrs-unsplash.jpg" alt="Western Wear">
+
+        <div class="category-info">
+            <h3>Western Wear</h3>
+            <p>Modern styles designed for confidence.</p>
+        </div>
+
+    </div>
+
+
+    <div class="category-card">
+
+        <img src="images/fotografia-editorial-4E19w4Qi_60-unsplash.jpg" alt="Formal Wear">
+
+        <div class="category-info">
+            <h3>Formal Wear</h3>
+            <p>Elegant pieces for unforgettable moments.</p>
+        </div>
+
+    </div>
+
+</div>
+
+    </section>
+
+<!-- Featured Products Section -->
+
+<section class="featured-products" id="products">
+
+    <p class="subtitle">FEATURED COLLECTION</p>
+
+    <h2>The EMANÈ Edit</h2>
+
+<div class="product-search">
+    <input
+        type="text"
+        id="productSearch"
+        placeholder="Search our collection..."
+    >
+    <span class="product-search-btn">⌕</span>
+</div>
+
+
+<!-- products container -->
+<div class="products-container">
+        <!-- Product 1 -->
+
+        <div class="product-card"
+     data-name="Silk Elegance"
+     data-price="6500">
+
+            <div class="product-image">
+                <img src="images/fotografia-editorial-_kx6ShhfCvs-unsplash.jpg" alt="Silk Elegance Dress">
+            </div>
+
+            <div class="product-details">
+
+                <h3>Silk Elegance</h3>
+
+                <p>Signature Collection</p>
+
+                <div class="product-bottom">
+
+                    <span>PKR 6,500</span>
+
+                    <button class="add-cart-btn">Add to Cart</button>
+                 <button class="quick-view-btn">Quick View</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 2 -->
+
+        <div class="product-card"
+     data-name="Midnight Grace"
+     data-price="8500">
+
+            <div class="product-image">
+                <img src="images/fotografia-editorial-xAd19rNytdo-unsplash.jpg" alt="Midnight Grace Dress">
+            </div>
+
+            <div class="product-details">
+
+                <h3>Midnight Grace</h3>
+
+                <p>Formal Collection</p>
+
+                <div class="product-bottom">
+
+                    <span>PKR 8,500</span>
+
+                    <button class="add-cart-btn">Add to Cart</button>
+                  <button class="quick-view-btn">Quick View</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 3 -->
+
+        <div class="product-card"
+     data-name="Rose Affair"
+     data-price="7200">
+
+            <div class="product-image">
+                <img src="images/abdul-raheem-kannath-dZ3OjYVtTwo-unsplash.jpg" alt="Rose Affair Dress">
+            </div>
+
+            <div class="product-details">
+
+                <h3>Rose Affair</h3>
+
+                <p>Luxury Collection</p>
+
+                <div class="product-bottom">
+
+                    <span>PKR 7,200</span>
+
+                    <button class="add-cart-btn">Add to Cart</button>
+                    <button class="quick-view-btn">Quick View</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 4 -->
+
+        <div class="product-card"
+     data-name="Classic Muse"
+     data-price="5900">
+
+            <div class="product-image">
+                <img src="images/ikshana-productions-6T5xOFmV0es-unsplash.jpg" alt="Classic Muse Dress">
+            </div>
+
+            <div class="product-details">
+
+                <h3>Classic Muse</h3>
+
+                <p>Essential Collection</p>
+
+                <div class="product-bottom">
+
+                    <span>PKR 5,900</span>
+
+                    <button class="add-cart-btn">Add to Cart</button>
+                    <button class="quick-view-btn">Quick View</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- Collection Section -->
+<section class="collection" id="collection">
+
+    <div class="collection-content">
+        <p class="collection-subtitle">EMANÈ EDIT</p>
+
+        <h2>Elegance, Redefined.</h2>
+
+        <p class="collection-text">
+            Discover timeless pieces designed to make every moment feel unforgettable.
+            Crafted for confidence, elegance, and modern femininity.
+        </p>
+
+        <a href="#products" class="collection-btn">
+            Explore Collection
+        </a>
+    </div>
+
+</section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+
+        <p class="subtitle">THE EMANÈ STORY</p>
+
+        <h2>Fashion That Feels Like You.</h2>
+
+        <p>
+            EMANÈ is more than fashion. We believe every outfit should
+            make you feel confident, elegant, and beautifully yourself.
+        </p>
+
+    </section>
+
+
+<!-- Contact Section -->
+
+<section class="contact" id="contact">
+
+    <div class="contact-heading">
+
+        <p class="subtitle">GET IN TOUCH</p>
+
+        <h2>Let's Stay Connected</h2>
+
+        <p>
+            Have a question about our collection or want to place an order?
+            We'd love to hear from you.
+        </p>
+
+    </div>
+
+
+    <div class="contact-container">
+
+
+        <!-- Contact Information -->
+
+        <div class="contact-info">
+
+            <h3>Contact EMANÈ</h3>
+
+            <p>We are always happy to assist you.</p>
+
+
+            <a href="https://wa.me/923000000000" target="_blank">
+                💬 WhatsApp Us
+            </a>
+
+
+            <a href="mailto:hello@emane.com">
+                ✉️ hello@emane.com
+            </a>
+
+
+            <a href="https://instagram.com/" target="_blank">
+                📸 Follow us on Instagram
+            </a>
+
+        </div>
+
+
+        <!-- Contact Form -->
+
+        <form class="contact-form">
+
+            <input
+                type="text"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                placeholder="Your Message"
+                rows="6"
+                required
+            ></textarea>
+
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+
+    </div>
+
+</section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>EMANÈ</h2>
+
+        <p>Timeless Fashion. Effortless Elegance.</p>
+
+        <p class="copyright">
+            © 2026 EMANÈ. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<aside class="cart-sidebar" id="cartSidebar">
+
+    <div class="cart-header">
+
+        <h2>Your Cart</h2>
+
+        <button id="closeCart">
+            ✕
+        </button>
+
+    </div>
+
+
+    <div id="cartItems">
+
+        <p class="empty-cart">
+            Your cart is empty.
+        </p>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+
+            <span>Total:</span>
+
+            <strong id="cartTotal">
+                PKR 0
+            </strong>
+
+        </div>
+
+
+        <button class="checkout-btn">
+            Proceed to Checkout
+        </button>
+
+    </div>
+
+</aside>
+
+   <!-- QUICK VIEW POPUP -->
+
+<div class="quick-view-overlay" id="quickViewOverlay"></div>
+
+<div class="quick-view-modal" id="quickViewModal">
+
+    <button
+        class="quick-view-close"
+        id="quickViewClose"
+    >
+        ×
+    </button>
+
+
+    <div class="quick-view-content">
+
+        <img
+            id="quickViewImage"
+            src=""
+            alt="Product Image"
+        >
+
+
+        <div class="quick-view-details">
+
+            <p>
+                EMANÈ COLLECTION
+            </p>
+
+
+            <h2 id="quickViewName">
+                Product Name
+            </h2>
+
+
+            <h3 id="quickViewPrice">
+                PKR 0
+            </h3>
+
+
+            <p class="quick-view-description">
+
+                Discover timeless elegance with this
+                exclusive piece from our EMANÈ collection.
+
+            </p>
+
+
+            <button
+                class="quick-view-add-cart"
+                id="quickViewAddCart"
+            >
+                Add to Cart
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<button id="backToTop" class="back-to-top">↑</button>
+
+<!-- EMANE QUICK VIEW POPUP -->
+<div class="emane-quick-modal" id="quickViewModal">
+
+    <div class="emane-quick-content">
+
+        <button class="emane-close-btn" id="closeQuickView">
+            ×
+        </button>
+
+        <img id="quickViewImage" src="" alt="Product Image">
+
+        <div class="emane-quick-details">
+
+            <h2 id="quickViewName"></h2>
+
+            <p id="quickViewCollection"></p>
+
+            <h3 id="quickViewPrice"></h3>
+
+            <p id="quickViewDescription">
+                A timeless EMANÈ piece designed with elegance,
+                confidence and effortless style.
+            </p>
+
+            <button id="quickViewAddToCart">
+                Add to Cart
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="EMANE.js"></script>
+
+
+</body>
+</html>
